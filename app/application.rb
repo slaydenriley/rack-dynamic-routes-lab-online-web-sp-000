@@ -8,6 +8,7 @@ class Application
     else
       resp.write "Error"
       resp.write "400"
+    end
 
   end
 
