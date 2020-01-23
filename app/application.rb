@@ -1,6 +1,7 @@
 class Application
   def call(env)
-    if req.path.reques
+    resp = Rack::Response.new
+    req = Rack::Request.new(env)
 
   end
 
